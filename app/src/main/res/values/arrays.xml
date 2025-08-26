@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="challenge_positive_titles">
+        <item>Three Good Things</item>
+        <item>Kindness Note</item>
+        <item>Gratitude Snapshot</item>
+        <item>Compliment Yourself</item>
+        <item>Uplifting Song</item>
+        <item>Five-Minute Tidy</item>
+        <item>Celebrate Wins</item>
+    </string-array>
+
+    <string-array name="challenge_positive_hints">
+        <item>Write 3 small good things that happened today.</item>
+        <item>Send a kind message or smile to someone.</item>
+        <item>Take a photo of something you appreciate.</item>
+        <item>Write one thing you did well.</item>
+        <item>Play a feel-good track and stretch for 2 minutes.</item>
+        <item>Organize a tiny space around you.</item>
+        <item>Review the week and circle a highlight.</item>
+    </string-array>
+
+    <string-array name="challenge_calm_titles">
+        <item>Box Breathing</item>
+        <item>Slow Walk</item>
+        <item>Declutter 3</item>
+        <item>Sip &amp; Pause</item>
+        <item>Screen Break</item>
+        <item>Relaxing Sounds</item>
+        <item>Gentle Stretch</item>
+    </string-array>
+
+    <string-array name="challenge_calm_hints">
+        <item>Breathe 4-4-4-4 for one minute.</item>
+        <item>Take a 5-minute mindful walk.</item>
+        <item>Put away three things calmly.</item>
+        <item>Have tea or water and watch your breath.</item>
+        <item>No screens for 10 minutes.</item>
+        <item>Listen to rain or ambient sound for 3 minutes.</item>
+        <item>Do neck &amp; shoulder rolls slowly.</item>
+    </string-array>
+</resources>

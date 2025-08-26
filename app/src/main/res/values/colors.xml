@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary background (60%) -->
+    <color name="bg_primary_60">#FAFAFA</color> <!-- soft white -->
+
+    <!-- Secondary yellows (30%) -->
+    <color name="secondary_30_light">#FFF9C4</color>   <!-- light pastel yellow -->
+    <color name="secondary_30_medium">#FFF59D</color>  <!-- warm mid yellow -->
+    <color name="secondary_30_softgold">#FFE082</color><!-- golden tint -->
+
+    <!-- Accent (10%) -->
+    <color name="accent_10">#FFC107</color>   <!-- amber -->
+    <color name="accent_on">#000000</color>   <!-- black text/icons on accent -->
+
+    <color name="mood_butter">#FFF7CC</color>
+    <color name="mood_honey">#FFE27A</color>
+    <color name="mood_amber">#FFC107</color>
+    <color name="mood_orange">#FFB14A</color>
+    <color name="mood_bronze">#C7893E</color>
+    <color name="mood_sand">#F3E3B0</color>
+
+</resources>

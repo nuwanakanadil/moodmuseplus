@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="16dp"/>
+            <gradient
+                android:type="linear"
+                android:angle="45"
+                android:startColor="#FFF7CC"
+                android:centerColor="#FFE27A"
+                android:endColor="#FFC107"/>
+        </shape>
+    </item>
+    <!-- subtle noise/overlay stripe -->
+    <item android:gravity="fill">
+        <shape>
+            <corners android:radius="16dp"/>
+            <size android:width="4dp" android:height="4dp"/>
+            <solid android:color="#14FFFFFF"/>
+        </shape>
+    </item>
+</layer-list>

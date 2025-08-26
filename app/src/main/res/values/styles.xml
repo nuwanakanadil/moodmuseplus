@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HomeCard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@drawable/bg_home_card</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="layout_columnWeight">1</item>
+    </style>
+
+    <style name="HomeCardIcon">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:contentDescription">@string/home_icon_cd</item>
+    </style>
+
+    <style name="HomeCardText">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Nav.Active" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/accent_10</item>
+    </style>
+
+    <style name="Text.Nav.Inactive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="EmojiChip">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/bg_chip_selectable</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="ColorChip">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:background">@drawable/bg_chip_selectable</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+
+    <style name="TagChip" parent="Widget.Material3.Chip.Filter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/chip_text_selector</item>
+        <item name="chipBackgroundColor">@color/chip_bg_selector</item>
+        <item name="chipStrokeColor">@color/secondary_30_softgold</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="rippleColor">@color/bottom_nav_ripple</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="StatChip">
+        <item name="android:background">@drawable/bg_stat_chip</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StatChipNumber">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="StatChipLabel">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+
+</resources>

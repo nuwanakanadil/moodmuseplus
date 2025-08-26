@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoodMuse+</string>
+    <string name="splash_tagline">Breathe • Reflect • Grow</string>
+
+    <!-- Onboarding 1 -->
+    <string name="ob1_title">Welcome to MoodMuse</string>
+    <string name="ob1_body">Check in with your mood and feel better, one small step at a time.</string>
+    <string name="ob1_demo_card_text">Log a mood to get a quote, a playlist, and a quick tip.</string>
+    <string name="ob1_footer_hint">Start your calm journey today.</string>
+
+    <!-- Onboarding 2 -->
+    <string name="ob2_title">Express Yourself</string>
+    <string name="ob2_body">Quick check-ins, simple journaling, and mood-matched art and music.</string>
+    <string name="ob2_card_title">What you can do</string>
+    <string name="ob2_card_line1">• Journal with optional photos</string>
+    <string name="ob2_card_line2">• Browse mood-based art</string>
+    <string name="ob2_card_line3">• Play curated playlists</string>
+    <string name="ob2_footer_hint">Your story, your pace.</string>
+
+    <!-- Onboarding 3 -->
+    <string name="ob3_title">Breathe and Grow</string>
+    <string name="ob3_body">Short breathing, mini meditations, and 7-day challenges.</string>
+    <string name="ob3_card_line1">• Follow a calm rhythm</string>
+    <string name="ob3_card_line2">• Try 1–2 minute sessions</string>
+    <string name="ob3_card_line3">• Earn streaks and badges</string>
+    <string name="ob3_cta">Get started</string>
+
+    <!-- Common UI -->
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="cd_app_logo">MoodMuse logo</string>
+
+    <!-- Auth / Login -->
+    <string name="auth_title_login">Welcome back</string>
+    <string name="auth_subtitle_login">Sign in to continue your journey toward calm, clarity, and growth.</string>
+    <string name="label_email">Email</string>
+    <string name="hint_email">you@example.com</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="prompt_no_account">New here?</string>
+    <string name="action_create_account">Create an account</string>
+
+    <!-- Auth validation / toasts -->
+    <string name="error_email_invalid">Please enter a valid email address.</string>
+    <string name="error_password_short">Password must be at least 6 characters.</string>
+    <string name="sign_in_success">Signed in! (Demo)</string>
+    <string name="toast_signup_next">Sign up screen is coming next.</string>
+    <string name="toast_forgot_link">A password reset link would be sent here. (Demo)</string>
+
+
+    <!-- Sign Up -->
+    <string name="auth_title_signup">Create your account</string>
+    <string name="auth_subtitle_signup">Join MoodMuse+ and start a kinder routine with daily mood check‑ins and mindful tools.</string>
+    <string name="label_name">Full name</string>
+    <string name="hint_name">e.g., Maya Senanayake</string>
+    <string name="label_confirm_password">Confirm password</string>
+    <string name="hint_confirm_password">Re‑enter your password</string>
+    <string name="agree_terms">I agree to the Terms &amp; Privacy Policy</string>
+    <string name="action_sign_in_existing">Already have an account? Sign in</string>
+
+    <!-- Validation / toasts -->
+    <string name="error_name_required">Please enter your name.</string>
+    <string name="error_password_mismatch">Passwords do not match.</string>
+    <string name="error_terms_required">Please agree to the terms to continue.</string>
+    <string name="signup_success_demo">Account created! (Demo)</string>
+
+    <!-- Home -->
+    <string name="home_title">MoodMuse Dashboard</string>
+    <string name="home_subtitle">Choose a tool to match your mood today.</string>
+    <string name="home_icon_cd">Feature icon</string>
+    <string name="home_card_mood">Log Mood</string>
+    <string name="home_card_log">Mood Log</string>
+    <string name="home_card_journal">Journal</string>
+    <string name="home_card_meditation">Meditation</string>
+    <string name="home_card_art">Art Gallery</string>
+    <string name="home_card_quotes">Quotes</string>
+    <string name="home_card_challenge">7‑Day Challenge</string>
+    <string name="home_card_profile">Profile</string>
+    <string name="home_card_settings">Settings</string>
+    <string name="home_fab_desc">New mood entry</string>
+    <string name="home_tools_heading">Your toolkit</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_log">Mood Log</string>
+    <string name="nav_journal">Journal</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Mood Select -->
+    <string name="mood_title">How are you feeling right now?</string>
+    <string name="mood_subtitle">Pick an emoji that matches your mood, or choose a color that feels right.</string>
+    <string name="mood_color_label">Or choose a mood color</string>
+    <string name="mood_pick_prompt">Please pick a mood emoji.</string>
+    <string name="mood_selected_toast">Mood selected: %1$s</string>
+    <string name="cancel">Cancel</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- Mood Result -->
+    <string name="mood_result_title">Your mood, reflected</string>
+    <string name="mood_result_header">%1$s %2$s</string> <!-- e.g., 😊 Happy -->
+    <string name="play_playlist">Play a matching playlist</string>
+    <string name="done">Done</string>
+    <string name="cd_art">Mood-inspired artwork</string>
+    <string name="mood_result_quote_label">Mood reflection</string>
+    <string name="mood_result_tip_label">Try this</string>
+
+
+    <!-- Mood Log -->
+    <string name="log_title">Mood Log</string>
+    <string name="log_subtitle">Your recent moods and notes</string>
+
+
+    <!-- Journal -->
+    <string name="journal_title">Journal</string>
+    <string name="journal_subtitle">Write freely. Tag what stands out and (optionally) add a photo.</string>
+    <string name="journal_tags_label">Tags (optional)</string>
+    <string name="tag_grateful">grateful</string>
+    <string name="tag_anxious">anxious</string>
+    <string name="tag_hopeful">hopeful</string>
+    <string name="tag_calm">calm</string>
+    <string name="tag_energized">energized</string>
+    <string name="journal_entry_label">Your entry</string>
+    <string name="journal_hint">What did you notice today? What feelings showed up? What helped?</string>
+    <string name="journal_photo_label">Add a photo (optional)</string>
+    <string name="journal_add_photo">Add / Remove photo</string>
+    <string name="journal_save">Save entry</string>
+    <string name="journal_toast_empty">Write a few words to save your entry.</string>
+    <string name="journal_toast_saved">Entry saved locally for now.</string>
+    <string name="journal_toast_photo_added">Photo added.</string>
+    <string name="journal_toast_photo_removed">Photo removed.</string>
+    <string name="cd_photo">Selected journal photo</string>
+
+    <!-- Meditation -->
+    <string name="meditation_title">Breathing Practice</string>
+    <string name="meditation_subtitle">Follow the expanding circle. Inhale as it grows, exhale as it softens.</string>
+    <string name="meditation_timer_default">01:00</string>
+    <string name="meditation_phase_inhale">Inhale…</string>
+    <string name="meditation_phase_exhale">Exhale…</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="cd_back">Go back</string>
+    <string name="meditation_cue_441">Inhale 4 • Hold 1 • Exhale 4</string>
+
+    <!-- Art Gallery -->
+    <string name="art_title">Mood Art Gallery</string>
+    <string name="art_subtitle">Browse calming, joyful, and expressive pieces curated by mood.</string>
+    <string name="filter_all">All</string>
+    <string name="art_toast_view">Opening “%1$s”  %2$s  •  %3$s</string>
+    <string name="cd_art2">Artwork</string>
+
+    <!-- Quote Library -->
+    <string name="quote_title">Quote Library</string>
+    <string name="quote_subtitle">Explore uplifting lines matched to how you feel.</string>
+    <string name="quote_search_hint">Search quotes or authors…</string>
+    <string name="quote_toast_copied">Quote selected %1$s</string>
+    <string name="cd_quote_icon">Quote icon</string>
+
+
+    <!-- Challenge -->
+    <string name="challenge_title">7-Day Challenge</string>
+    <string name="challenge_subtitle">Pick a theme and complete one small step each day.</string>
+    <string name="challenge_toggle_positive">Positivity</string>
+    <string name="challenge_toggle_calm">Calmness</string>
+    <string name="challenge_progress_init">0/7 days</string>
+    <string name="challenge_progress_fmt">%1$d/%2$d days</string>
+    <string name="challenge_day_num">Day %1$d</string>
+    <string name="challenge_cd_done_icon">Completed</string>
+
+    <!-- Profile -->
+    <string name="profile_you">You</string>
+    <string name="profile_tagline">Tracking feelings. Building habits.</string>
+    <string name="profile_streak_label">day streak</string>
+    <string name="profile_achievements">Achievements</string>
+    <string name="stat_moods">Moods</string>
+    <string name="stat_journal">Journal</string>
+    <string name="stat_meditations">Meditations</string>
+    <string name="cd_profile_avatar">Profile avatar</string>
+    <string name="cd_badge_icon">Badge icon</string>
+    <string name="profile_title">Profile</string>
+    <string name="action_edit_profile">Edit</string>
+    <string name="achievements_title">Achievements</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="hint_name2">Display name</string>
+    <string name="hint_tagline">Tagline or short bio</string>
+    <string name="change_photo">Change photo</string>
+    <string name="save">Save</string>
+    <string name="toast_change_photo_demo">Photo picker not implemented in this lab.</string>
+    <string name="toast_profile_saved">Profile updated.</string>
+
+
+    <!-- Badge titles -->
+    <string name="badge_mood_tracker">Mood Tracker</string>
+    <string name="badge_zen_master">Zen Master</string>
+    <string name="badge_creative_soul">Creative Soul</string>
+    <string name="badge_uplifter">Uplifter</string>
+    <string name="badge_art_enthusiast">Art Enthusiast</string>
+    <string name="badge_quote_hunter">Quote Hunter</string>
+
+    <!-- Badge requirements (match earlier badge names) -->
+    <string name="req_mood_tracker">Log your mood 7 days in a row.</string>
+    <string name="req_zen_master">Complete 5 meditations.</string>
+    <string name="req_creative_soul">Add 3 journal entries.</string>
+    <string name="req_uplifter">Send 5 MoodMails.</string>
+    <string name="req_art_enth">View 10 artworks.</string>
+    <string name="req_quote_hunter">Collect 20 quotes.</string>
+
+    <string name="badge_unlocked">Unlocked</string>
+    <string name="badge_locked">Locked</string>
+
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_dark_mode">Dark mode</string>
+
+    <string name="settings_reminders">Reminders</string>
+    <string name="settings_daily_reminder">Daily mood reminder</string>
+    <string name="settings_reminder_time_default">Tap to set time (e.g., 8:00 AM)</string>
+
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_data_control">Export or clear your local data</string>
+    <string name="settings_export">Export data</string>
+    <string name="settings_delete_all">Delete all data</string>
+
+    <string name="settings_about">About</string>
+    <string name="settings_version_label">App version</string>
+
+    <!-- Settings toasts -->
+    <string name="toast_dark_on">Dark mode on</string>
+    <string name="toast_dark_off">Dark mode off</string>
+    <string name="toast_reminder_set">Reminder time saved</string>
+    <string name="toast_export_started">Export started…</string>
+    <string name="toast_delete_all_confirm">All local data would be deleted (demo)</string>
+
+</resources>
